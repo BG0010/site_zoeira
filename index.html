@@ -45,12 +45,12 @@
 </style>
 
 <script>
-    function sim() {
-        alert("Você disse que gosta de chocolate! Prazer chocolate :)");
+    function desvia(btn) {
+        alert("Como assim você não gosta de chocolate? Prazer chocolate :)");
         location.href = "https://music.youtube.com/watch?v=izGwDsrQ1eQ";
     }
 
-    function desvia(btn) {
+    function sim()  {
         btn.style.position = 'absolute';
         btn.style.bottom = geraPosicao(10, 90);
         btn.style.left = geraPosicao(10, 90);
