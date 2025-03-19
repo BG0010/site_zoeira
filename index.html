@@ -47,6 +47,9 @@
 <script>
     function desvia(btn) {
         alert("Como assim você não gosta de chocolate? Prazer chocolate :)");
+        btn.style.position = 'absolute';
+        btn.style.bottom = geraPosicao(10, 90);
+        btn.style.left = geraPosicao(10, 90);
         location.href = "https://music.youtube.com/watch?v=izGwDsrQ1eQ";
     }
 
